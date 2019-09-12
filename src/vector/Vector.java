@@ -39,6 +39,14 @@ public class Vector
 		return new Vector(x - v2.x, y - v2.y, z - v2.z, id + "-" + v2.id);
 	}
 	
+	public double dotProduct(Vector v2)
+	{
+		return (x * v2.x) + (y * v2.y) + (z * v2.z);
+	}
 	
+	public Vector crossProduct(Vector v2)
+	{
+		return new Vector(
+	}
 	
 }
