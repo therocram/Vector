@@ -75,4 +75,23 @@ public class Vector
 	{
 		return getAngle(v2) * (180/Math.PI);
 	}
+	
+	public String toString()
+	{
+		return id + " = " + "<" + x + ", " + y + ", " + z +">";
+	}
+	
+	public static void main(String[] args)
+	{
+		Vector V1 = new Vector(1, 0, 0, "i");
+		Vector V2 = new Vector(0, 1, 0, "j");
+		Vector V3 = new Vector(0, 0, 1, "k");
+		
+		System.out.println(V1.add(V2) + "\n" + V1.subtract(V2));
+		System.out.println(V1.crossProduct(V2));
+
+		System.out.println(V3);
+	}
 }
+
+
