@@ -1,7 +1,6 @@
 import math
-from Vector import Vector
-from Function import Function
-
+from .Vector import Vector
+from .Function import Function
 
 class VectorField:
     def __init__(self, p, q, r, n):

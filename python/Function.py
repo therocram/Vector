@@ -90,12 +90,13 @@ class Function:
         return word
 
 
+'''
 fun = input("Enter expression: ")
 F = Function(fun)
 # print(str(float("5-2")))
 print(str(F.valueAt(5, 1, -2)))
 # print(str(+5))
-
+'''
 '''  
     def varSearch(self, word, x, y, z):
         a = word.find("x")
